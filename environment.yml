@@ -1,0 +1,14 @@
+name: yoga
+channels:
+ - defaults
+dependencies:
+ - numpy
+ - pandas
+ - scipy
+ - scikit-learn
+ - jupyter
+ - requests
+ - click
+ - pip:
+   - google-generativeai
+   - python-dotenv
